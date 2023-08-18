@@ -2,5 +2,14 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:base"
+  ],
+  "hostRules": [
+    {
+      "matchHost": "https://api.github.com/repos/cloudy-sky-software/pulumi-provider-framework",
+      "username": "praneetloke",
+      "encrypted": {
+        "password": "wcFMA/xDdHCJBTolAQ/+PVKj2IWyICYfjhqTBfJZS8+f5cHAU+LPvel2XX6xMNZpnaxLCrRZzZG2ygIu2GZEJGp5ZgmXcHC7RRXR8qGI5c2zJeFKTdE4grjuzVO+nH6Dg23GL/d64kONAcAsl4zD+RoHQ5f4JHHlpIiPTBJPZDQhYwqfCpuMjuNo4m6DWCmfi/TE1Z0M10hE/l8d1u+o1mPrc9mIG2r7f2spYeVJNhLJfNUCX/sqBWKLCeD+3XgUwKckJKvvPqxdoPvRS09C4/A6qNllzUaZ3mP4g+vOU6w+pbfv8R3SYpwE2kDfyHM8dhlKWJV5udQpRwK4b5WkduHq6oBeunRb7gtfsoLlnoNqqb8XU1yCDegtDaDW/uptht9mM3MUySng/L4MBTPthhO+Xa1ffas5ZThh4kHRU2e9lQbrr8pJs5qNYvg+Mbn7l6z7uAb1xxxxjLBz5ClT4bO6kDXH63q4H9vdS+hHtczuctY0pz5zxchpGRraxI+n6asEFHszM9tXS8A7wKIp1QmuajNCBsAa0BKqDhAQo7OswxrDhFMIDmAS/OxyQRUr4nwepX/X+1cp5/1GgTgEYAKG2GF0/jLbgcxonv6ywUc67bQELyTmdYVFp3O864HUGheH5Tqt6bZJLmaRNLXUCDoGdxIaAdyLpewXhU6uNkIetzGkW6EPeTJRROsLg5jSYgFfz3xFFLoRBecfmI+zZeVTp1u5MlGRdEIELv15FSU3lbZmD+TNStMZdWQx9jgSXcTl1khvPfnxoCeX1KWLRQdqG7tZH+8s/voaGrfP5qBMZ45oglmvTTv/Vf9oSZ/jTiCT"
+      }
+    }
   ]
 }
